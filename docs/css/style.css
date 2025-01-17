@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+nav {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    padding: 15px 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 950px) {
+    .logo span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .toggle {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+}
+
+/* 
+body {
+    background-color: grey;
+}
+
+nav {
+    display: grid;
+
+    top: 0px;
+    height: 100px;
+    position: sticky;
+
+    padding: 0 20px;
+    grid-template-columns: 1fr 2fr;
+
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(255, 255, 255, 1));
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    align-self: center;
+    border-radius: 6px;
+    margin: 0 3px;
+    padding: 10px 0px;
+    border: 1px solid red;
+}
+
+nav a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.logo a {
+    font-size: 1.5em;
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-image img {
+    width: 100%;
+    height: 100%;
+} */
+
+/* 
+header {
+    height: 700px;
+    background-color: #eaecee;
+    background-image: url(../images/first_section_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+nav li:not(:first-child) {
+    margin-top: -30px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    transform: translateY(75px);
+}
+
+nav li:first-child img {
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+}
+
+.menu-button {
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(8px);
+}
+
+.sidebar li {
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar a {
+    margin: 0;
+    width: 100%;
+}
+
+.sidebar li:first-child {
+    transform: translateX(65%);
+}
+
+.sidebar li:not(:first-child) {
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+li.hide-on-mobile {
+    border: 1px solid transparent
+}
+
+li.hide-on-mobile:hover {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(177, 80, 1, 0.849)
+}
+
+@media screen and (max-width: 950px) {
+    .menu-button {
+        display: block;
+    }
+
+    nav li:first-child {
+        margin-right: auto;
+        transform: translateY(50px);
+    }
+
+    nav li:first-child img {
+        max-height: 175px;
+        max-width: 175px;
+        height: auto;
+        width: auto;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav li:first-child {
+        margin-right: auto;
+        transform: translateY(50px);
+    }
+
+    nav li:first-child img {
+        max-height: 175px;
+        max-width: 175px;
+        height: auto;
+        width: auto;
+    }
+
+    .nav-action-btn {
+        display: none;
+    }
+}
+
+footer {
+    background-color: grey;
+} */
